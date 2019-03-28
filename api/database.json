@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "concept": "Array methods",
+      "date": "07/24/2018",
+      "details": "We learned about 4 different array methods today. forEach made sense",
+      "mood": "ok"
+    },
+    {
+      "concept": "test",
+      "date": "2019-03-12",
+      "details": "dsf",
+      "mood": "happy",
+      "id": 2
+    },
+    {
+      "concept": "test 4",
+      "date": "2019-03-12",
+      "details": "test4",
+      "mood": "soso",
+      "id": 3
+    },
+    {
+      "concept": "test09876",
+      "date": "2019-03-19",
+      "details": "test09876",
+      "mood": "soso",
+      "id": 4
+    },
+    {
+      "concept": "test89769678967",
+      "date": "2019-03-19",
+      "details": "test89769678967",
+      "mood": "freakingOut",
+      "id": 5
+    },
+    {
+      "concept": "array's",
+      "date": "2019-03-04",
+      "details": "array's",
+      "mood": "ok",
+      "id": 6
+    },
+    {
+      "concept": "xyz",
+      "date": "2019-03-13",
+      "details": "xys",
+      "mood": "happy",
+      "id": 7
+    },
+    {
+      "concept": "zxcv",
+      "date": "2019-03-08",
+      "details": "zxcv",
+      "mood": "freakingOut",
+      "id": 8
+    },
+    {
+      "concept": "dsafdsdfsa",
+      "date": "2019-03-14",
+      "details": "asdfasdfsaddga",
+      "mood": "happy",
+      "id": 9
+    },
+    {
+      "concept": "fingers crossed",
+      "date": "2019-03-13",
+      "details": "fingers crossed",
+      "mood": "happy",
+      "id": 10
+    },
+    {
+      "concept": "Javascript Modules with Browserfiy",
+      "date": "2019-03-27",
+      "details": "Learned how to bundle all the javascript files and then access them using the import function.",
+      "mood": "happy",
+      "id": 11
+    }
+  ]
+}

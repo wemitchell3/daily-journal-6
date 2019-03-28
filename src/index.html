@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily journal</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css">
+</head>
+
+<body>
+    <article class="mainPage">
+        <h1>Daily Journal</h1>
+        <form action="dailyJournalEntry">
+            <fieldset>
+                <label for="journalDate" class="formSectionTitle">Date of entry</label>
+                <input type="date" name="journalDate" id="journalDate">
+            </fieldset>
+            <fieldset>
+                <label for="conceptsCovered" class="formSectionTitle">Concepts covered</label>
+                <input type="text" name="conceptsCovered" id="conceptsCovered">
+            </fieldset>
+            <fieldset>
+                <label for="journalEntry" class="formSectionTitle">Journal entry</label>
+                <textarea rows="2" name="journalEntry" id="journalEntry"></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="moodOfTheDay" class="formSectionTitle">Mood of the day</label>
+                <select name="moodOfTheDay" id="moodOfTheDay">
+                    <option value="happy">Happy</option>
+                    <option value="ok">Ok</option>
+                    <option value="soso">So-So</option>
+                    <option value="sad">Sad</option>
+                    <option value="freakingOut">Freaking Out!</option>
+                </select>
+            </fieldset>
+            <button type="button" value="Record Journal Entry">Submit</button>
+        </form>
+        <article class="entryLog"></article>
+        <script src="scripts/data.js"></script>
+        <script src="scripts/entryComponent.js"></script>
+        <script src="scripts/entriesDom.js"></script>
+        <script src="scripts/journal.js"></script>
+    </article>
+</body>
+
+</html>
